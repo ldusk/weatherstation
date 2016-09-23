@@ -1,5 +1,6 @@
 /*
-todo: ensure that the analog return value from getWind is a float between 0 and 5. 
+todo: ensure that the analog return value from getWind is a float between 0 and 5.
+      return values in calcWind instead of line of if statements
  */
  
 #include <asf.h>
