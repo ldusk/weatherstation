@@ -54,22 +54,22 @@
 #define OFF_H      0x2D
 #define byte uint8_t
 
-void toggleOneShot(void);
-void SampleRate(byte samplerate);
-void initFIFOMPL3115A2(void);
-void initRealTimeMPL3115A2(void);
-void TimeStep(byte ST_Value);
-void MPL3115A2enableEventflags(void);
-void ActiveAltimeterMode(void);
-void ActiveBarometerMode(void);
-void MPL3115A2Reset(void);
-void MPL3115A2Standby(void);
-void MPL3115A2Active(void);
-void readAltitude(void);
-void readRegisters(byte address, int i, byte * dest);
-void readPressure(void);
-void runMPL(void);
-void writeRegister(unsigned char address, unsigned char data);
+extern void toggleOneShot(void);
+extern void SampleRate(byte samplerate);
+extern void initFIFOMPL3115A2(void);
+extern void initRealTimeMPL3115A2(void);
+extern void TimeStep(byte ST_Value);
+extern void MPL3115A2enableEventflags(void);
+extern void ActiveAltimeterMode(void);
+extern void ActiveBarometerMode(void);
+extern void MPL3115A2Reset(void);
+extern void MPL3115A2Standby(void);
+extern void MPL3115A2Active(void);
+extern void readAltitude(void);
+extern void readRegisters(byte address, int i, byte * dest);
+extern void readPressure(void);
+extern void runMPL(void);
+extern void writeRegister(unsigned char address, unsigned char data);
 uint8_t readRegister(uint8_t address);
 uint8_t MPL3115A2_init(void);
 
