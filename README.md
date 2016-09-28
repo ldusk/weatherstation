@@ -1,3 +1,5 @@
 # weatherstation
 KEA
-Sept 2016
+
+
+note: main.c file does not correspond to MPL files (.c and .h)
