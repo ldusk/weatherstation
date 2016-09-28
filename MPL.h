@@ -1,10 +1,3 @@
-/*
- * MPL.h
- *
- * Created: 9/28/2016 9:34:07 AM
- *  Author: lucy
- */ 
-
 
 #ifndef MPL_H_
 #define MPL_H_
